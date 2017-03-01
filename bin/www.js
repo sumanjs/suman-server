@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 
-let app = require('../app');
+let app = require('../app.js');
 let debug = require('debug')('suman-server:server');
 let http = require('http');
 

@@ -1,18 +1,23 @@
 'use strict';
 
-const strict = process.argv.indexOf('--strict') > 0;
-const chokidar = require('chokidar');
+//core
 const path = require('path');
 const fs = require('fs');
 const cp = require('child_process');
 
+//npm
+const chokidar = require('chokidar');
 const Server = require('socket.io');
-const io = new Server(3980, {});
 
+//project
+const strict = process.argv.indexOf('--strict') > 0;
+const io = new Server(3980, {});
 const publicPath = path.resolve(__dirname + '/public');
 const publicPathLen = publicPath.length;
 
 const clients = [];
+
+/////////////////////////////////////////////////////////////////////////////////
 
 function getCount () {
   return ' => connection count:' + clients.length
@@ -109,9 +114,7 @@ watcher.once('ready', function () {
             path: p
           });
         });
-
       }
-
     });
 
   });

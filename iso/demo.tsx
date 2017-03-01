@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-
 class DemoProps {
   public name: string;
   public age: number;

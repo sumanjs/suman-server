@@ -38,6 +38,7 @@
     "./**/*.tsx"
   ],
   "exclude": [
+    "test",
     "public",
     "node_modules"
   ]
