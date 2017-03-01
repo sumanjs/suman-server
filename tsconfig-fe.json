@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "@hot-reload-handler": [
+        "public/js/hot-reload-handler"
+      ],
+      "@hot-reloader": [
+        "public/js/hot-reloader"
+      ],
+      "redux": [
+        "node_modules/redux/index"
+      ],
+      "redux-thunk": [
+        "node_modules/redux-thunk/index"
+      ],
+      "uuid": [
+        "d.ts/uuid"
+      ],
+      "@redux-store": [
+        "public/js/data-stores/redux-store"
+      ]
+    },
+    "types": [
+      "react",
+      "react-dom",
+      "whatwg-fetch",
+      "requirejs"
+    ],
+    "target": "es5",
+    "module": "amd",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "allowUnreachableCode": true,
+    "moduleResolution": "classic",
+    "lib": [
+      "es2015",
+      "es2016",
+      "dom"
+    ]
+  },
+  "compileOnSave": false,
+  "include": [
+    "./d.ts/**/*.ts",
+    "./public/**/*.ts",
+    "./public/**/*.tsx"
+  ]
+}

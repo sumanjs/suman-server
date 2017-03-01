@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "@hot-reload-handler": [
+        "public/js/hot-reload-handler"
+      ],
+      "@hot-reloader": [
+        "public/js/hot-reloader"
+      ],
+      "@redux-store": [
+        "public/js/data-stores/redux-store"
+      ]
+    },
+    "types": [
+      "node",
+      "lodash",
+      "react",
+      "react-dom",
+      "async",
+      "socket.io"
+    ],
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "allowUnreachableCode": true,
+    "lib": [
+      "es2015",
+      "es2016",
+      "dom"
+    ]
+  },
+  "compileOnSave": false,
+  "include": [
+    "./**/*.ts",
+    "./**/*.tsx"
+  ],
+  "exclude": [
+    "public",
+    "node_modules"
+  ]
+}
