@@ -1,0 +1,8 @@
+node_modules/
+test/
+yarn.lock
+suman.conf.js
+.idea
+*.sh
+*.ts
+*.tsx
