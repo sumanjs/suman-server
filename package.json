@@ -36,7 +36,6 @@
     "@types/whatwg-fetch": "0.0.33",
     "requirejs": "^2.3.2",
     "rimraf": "^2.5.4",
-    "roodles": "0.0.1013",
-    "suman": "github:sumanjs/suman#dev"
+    "roodles": "0.0.1013"
   }
 }
