@@ -1,6 +1,8 @@
 
 # Suman-Server
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sumanjs/suman-server.svg)](https://greenkeeper.io/)
+
 ### Suman server - Web UI for test results
 
 When this server is live, it will collect test results to a local SQLite3 database, and display results via
